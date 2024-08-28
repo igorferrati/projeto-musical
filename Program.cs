@@ -34,7 +34,9 @@ void ExibirOpcoesDoMenu()
             break;
         case 4: Console.WriteLine("Opção escolhida: " + opcaoEscolhida);
             break;
-        case -1: Console.WriteLine("Opção escolhida: " + opcaoEscolhida);
+        case -1: Console.WriteLine("Fim");
+            break;
+        default: Console.WriteLine("Opção invalida");
             break;
     }
 }
